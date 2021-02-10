@@ -10,6 +10,8 @@ var server = http.createServer(function (req, res) {   //create web server
         
         // RIGHT HERE THANKS!!! 
         // SEE YOU FRIDAY
+		
+		// How about Thursday
         
         // set response content    
         res.write('<html><body><p>This is home Page.</p></body></html>');

@@ -5,6 +5,8 @@ import time
 hostName = "localhost"
 serverPort = 8080
 
+
+# this is an example of a comment.
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
