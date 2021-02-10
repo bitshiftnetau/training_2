@@ -6,6 +6,11 @@ var server = http.createServer(function (req, res) {   //create web server
         // set response header
         res.writeHead(200, { 'Content-Type': 'text/html' }); 
         
+        // hey can you please do X here
+        
+        // RIGHT HERE THANKS!!! 
+        // SEE YOU FRIDAY
+        
         // set response content    
         res.write('<html><body><p>This is home Page.</p></body></html>');
         res.end();
